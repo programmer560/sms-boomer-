@@ -1,4 +1,4 @@
-#Credits : https://github.com/tingirifistik/Enough-Reborn
+
 import subprocess, sys, os
 
 try:
@@ -1489,16 +1489,13 @@ while 1:
     system("cls||clear")
     print("""{}
 
-             
-                                                                                             
-
- Enough
+ Welcome to sms boomer turkey
                                                                                
 
  Sms Api: {} 
     """.format(Fore.LIGHTCYAN_EX, len(servisler_sms), Style.RESET_ALL, Fore.LIGHTRED_EX))
     try:
-        menu = (input(Fore.LIGHTMAGENTA_EX + "Enough Rev\n\n 1- SMS Gönder (Normal)\n\n 2- SMS Gönder (Turbo)\n\n 3- Çıkış\n\n" + Fore.LIGHTYELLOW_EX + " Seçim: "))
+        menu = (input(Fore.LIGHTMAGENTA_EX + " Choose an option \n\n 1- SMS Gönder (Normal)\n\n 2- SMS Gönder (Turbo)\n\n 3- Çıkış\n\n" + Fore.LIGHTYELLOW_EX + " Seçim: "))
         if menu == "":
             continue
         menu = int(menu) 
@@ -1652,4 +1649,3 @@ while 1:
         system("cls||clear")
         print(Fore.LIGHTRED_EX + "Çıkış yapılıyor...")
         break
-
